@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    .tile { fill: #17150f; }
+    .glyph { fill: #f2eee5; stroke: #f2eee5; }
+    .dot { fill: #e4471f; }
+    @media (prefers-color-scheme: dark) {
+      .tile { fill: #f2eee5; }
+      .glyph { fill: #17150f; stroke: #17150f; }
+      .dot { fill: #d9411c; }
+    }
+  </style>
+  <rect class="tile" width="100" height="100" rx="16" />
+  <!-- "J" from Instrument Serif (same as the headline), slightly thickened for small sizes -->
+  <path class="glyph" stroke-width="26" stroke-linejoin="round" transform="translate(34.6 72.1) scale(0.0877 -0.0877)"
+    d="M14 -215Q-17 -215 -36.5 -198.5Q-56 -182 -56 -155Q-56 -135 -44.5 -122Q-33 -109 -15 -109Q2 -109 9 -119Q16 -129 20.5 -142Q25 -155 31 -165Q37 -175 50 -175Q69 -175 79 -153Q89 -131 89 -91V654Q89 675 82.5 682Q76 689 55 693L32 697Q19 700 19 709Q19 720 34 720H215Q230 720 230 709Q230 700 217 697L194 693Q173 689 166.5 682Q160 675 160 654V44Q160 -76 121 -145.5Q82 -215 14 -215Z" />
+  <circle class="dot" cx="64" cy="65.6" r="6.5" />
+</svg>
